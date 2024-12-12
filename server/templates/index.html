@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Recognition</title>
+</head>
+<body>
+    <h1>Emotion Recognition</h1>
+
+    <h2>Text Emotion Prediction</h2>
+    <form action="/predict_text" method="POST">
+        <label for="text_input">Enter Text:</label>
+        <input type="text" name="text_input" id="text_input" required>
+        <button type="submit">Predict Emotion</button>
+    </form>
+
+    <h2>Audio Emotion Prediction</h2>
+    <form action="/predict_audio" method="POST" enctype="multipart/form-data">
+        <label for="audio_file">Upload Audio:</label>
+        <input type="file" name="audio_file" id="audio_file" accept="audio/*" required>
+        <button type="submit">Predict Emotion</button>
+    </form>
+
+    <h2>Prediction Results</h2>
+    <div id="text_results"></div>
+    <div id="audio_results"></div>
+</body>
+</html>

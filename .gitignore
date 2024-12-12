@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Flask specific files
+instance/
+.webassets-cache
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Log files
+*.log
+
+
+encoder.pkl
+scaler(1).pkl
+text_emotion.pkl
+emotion_recognition_model(1).h5

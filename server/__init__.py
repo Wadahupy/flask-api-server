@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_cors import CORS
-from server.routes.route import prediction
+from server.routes.routes import prediction
 
 def create_server():
     server = Flask(__name__)

@@ -24,9 +24,3 @@ instance/
 
 # Log files
 *.log
-
-
-encoder.pkl
-scaler(1).pkl
-text_emotion.pkl
-emotion_recognition_model(1).h5
